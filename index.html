@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pepe Knight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container header-inner">
+        <a href="#" class="logo">
+            <img src="./src/images/logo.png" alt="The King" class="logo-img">
+            <span>Pepe<br>Knight</span>
+        </a>
+
+        <div class="header-wrapper">
+            <nav class="desktop-nav">
+                <a href="#gallery">Gallery</a>
+                <a href="#rankings">Rankings</a>
+                <a href="#join">Join</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#map">Map</a>
+                <a href="#tavern">Tavern</a>
+                <a href="#classes">Classes</a>
+            </nav>
+
+            <div class="header-socials">
+                <a href="https://x.com/knight_memecoin" class="header-social">𝕏 <span>Twitter</span></a>
+                <a href="https://t.me/knight_memecoin" class="header-social">✦ <span>Telegram</span></a>
+                <a href="#" class="header-social dex">◆ <span>DEX</span></a>
+            </div>
+        </div>
+
+        <button class="menu-button" aria-label="Open menu">☰</button>
+    </div>
+</header>
+
+<main>
+    <section class="hero" style="background-image: url('./src/images/hero.png')">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="eyebrow">Join the order of Knight</div>
+                <h1>Pepe<br>Knight</h1>
+                <p class="hero-text">
+                    In the ancient meme kingdom, Pepe the Great unites the realm. Hold $KNIGHT and become part of the
+                    legendary Knight.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-green">Buy Now</a>
+                    <a href="https://t.me/knight_memecoin" class="btn btn-dark">Join The Order</a>
+                </div>
+
+                <div class="hero-links">
+                    <div class="link-card contract" id="copyContract">
+                        <div>
+                            <small>Token Address</small>
+                            <span id="contractText">6LiUy31E6Jj3iaaX9QHMxoKmvSeDSLoLo5BWJCKapump</span>
+                        </div>
+                        <span id="copyIcon">⧉</span>
+                    </div>
+                    <a href="https://x.com/knight_memecoin" class="link-card">𝕏 / Twitter <span>→</span></a>
+                    <a href="https://t.me/knight_memecoin" class="link-card">Telegram <span>→</span></a>
+                    <a href="#" class="link-card">DEX <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container page-sections">
+        <section class="grid-kingdom-gallery">
+            <article id="kingdom" class="card kingdom">
+                <h2 class="section-head">The Kingdom</h2>
+                <p>
+                    Pepe reigns over the Meme Kingdom, a land built on memes, magic and green candles. Knights, mages,
+                    traders and artists unite under one banner.
+                </p>
+                <br>
+                <a href="https://x.com/knight_memecoin" class="view-link">Explore The Kingdom →</a>
+            </article>
+
+            <article id="gallery" class="card">
+                <div class="section-head">
+                    <h2 class="">Meme Gallery</h2>
+                    <a href="#" class="view-link">View All</a>
+                </div>
+
+                <div class="swiper gallery-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_king.png" alt="The King" class="gallery-img">
+                            <p>The King</p>
+                        </div>
+
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_battle.png" alt="The Battle" class="gallery-img">
+                            <p>The Battle</p>
+                        </div>
+
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_tavern.png" alt="The Tavern" class="gallery-img">
+                            <p>The Tavern</p>
+                        </div>
+
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_guardian.png" alt="The Guardian" class="gallery-img">
+                            <p>The Guardian</p>
+                        </div>
+
+
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_army.png" alt="The Army" class="gallery-img">
+                            <p>The Army</p>
+                        </div>
+                        <div class="swiper-slide gallery-item">
+                            <img src="./src/images/the_knight.png" alt="The Knight" class="gallery-img">
+                            <p>The Knight</p>
+                        </div>
+
+
+                    </div>
+
+                    <button class="gallery-prev">‹</button>
+                    <button class="gallery-next">›</button>
+                </div>
+            </article>
+        </section>
+
+        <section id="rankings" class="card rankings">
+            <h2 class="section-head">Knight Rankings</h2>
+            <div class="ranking-list">
+                <div class="ranking-item">
+                    <img src="./src/images/shield_1.png" alt="The shield" class="ranking-img">
+                    <div>
+                        <h3>Peasant</h3>
+                        <p>The journey begins</p>
+                    </div>
+                </div>
+                <div class="ranking-item">
+                    <img src="./src/images/shield_2.png" alt="The shield" class="ranking-img">
+                    <div><h3>Squire</h3>
+                        <p>Loyal and brave</p></div>
+                </div>
+                <div class="ranking-item">
+                    <img src="./src/images/shield_3.png" alt="The shield" class="ranking-img">
+                    <div><h3>Knight</h3>
+                        <p>Battle tested warrior</p></div>
+                </div>
+                <div class="ranking-item">
+                    <img src="./src/images/shield_4.png" alt="The shield" class="ranking-img">
+                    <div><h3>Commander</h3>
+                        <p>Leads the legions</p></div>
+                </div>
+                <div class="ranking-item">
+                    <img src="./src/images/shield_5.png" alt="The shield" class="ranking-img">
+                    <div><h3>Royal Guard</h3>
+                        <p>Elite of the realm</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="card how-buy">
+            <h2 class="section-head">Join The Knight</h2>
+
+            <div class="how-buy-grid">
+                <div class="parchment-card">
+                    <span>01</span>
+                    <h3>Create Wallet</h3>
+                    <p>Prepare your royal wallet for the journey.</p>
+                </div>
+
+                <div class="parchment-card">
+                    <span>02</span>
+                    <h3>Buy SOL</h3>
+                    <p>Gather the coins needed to enter the realm.</p>
+                </div>
+
+                <div class="parchment-card">
+                    <span>03</span>
+                    <h3>Enter The Kingdom</h3>
+                    <p>Connect to DEX and find the sacred $KNIGHT.</p>
+                </div>
+
+                <div class="parchment-card">
+                    <span>04</span>
+                    <h3>Join The Order</h3>
+                    <p>Swap, hold and become part of the Knight.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="card tokenomics-scroll">
+            <h2 class="section-head">Sacred Scroll Tokenomics</h2>
+
+            <div class="scroll-tokenomics">
+                <div><span>Royal Treasury</span><strong>40%</strong></div>
+                <div><span>Army Funding</span><strong>25%</strong></div>
+                <div><span>Kingdom Expansion</span><strong>20%</strong></div>
+                <div><span>Meme Relics</span><strong>15%</strong></div>
+            </div>
+        </section>
+
+        <section class="card conquest-map" id="map">
+            <h2 class="section-head">Conquest Map</h2>
+
+            <div class="map-path">
+                <div class="map-point">
+                    <span>I</span>
+                    <h3>Recruitment</h3>
+                    <p>North Kingdom awakens.</p>
+                </div>
+
+                <div class="map-point">
+                    <span>II</span>
+                    <h3>The War</h3>
+                    <p>Green Candle Forest powers up.</p>
+                </div>
+
+                <div class="map-point">
+                    <span>III</span>
+                    <h3>Conquest</h3>
+                    <p>Meme Valley joins the order.</p>
+                </div>
+
+                <div class="map-point">
+                    <span>IV</span>
+                    <h3>The Kingdom</h3>
+                    <p>Royal Citadel stands forever.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card forge-shield" id="forge">
+            <h2 class="section-head">Forge Your Shield</h2>
+
+            <div class="forge-grid">
+                <div class="forge-controls">
+                    <label>Choose Rank</label>
+                    <select id="rank-select">
+                        <option>Peasant</option>
+                        <option>Squire</option>
+                        <option>Knight</option>
+                        <option>Commander</option>
+                        <option>Royal Guard</option>
+                    </select>
+
+                    <label>Choose Gem</label>
+                    <select id="gem-select">
+                        <option>Emerald</option>
+                        <option>Gold</option>
+                        <option>Blue Crystal</option>
+                    </select>
+
+                    <button class="btn btn-green" id="generate-shield">Generate Shield</button>
+                </div>
+
+                <div class="forge-preview">
+                    <img src="./src/images/shield_5.png" id="shield-preview" alt="Custom Shield">
+                </div>
+            </div>
+        </section>
+
+        <section class="card tavern-board" id="tavern">
+
+            <h2 class="section-head">The Royal Tavern</h2>
+
+
+            <div class="tavern-grid">
+                <div class="tavern-note">
+                    <small>ROYAL NEWS</small>
+                    <h3>Sir Wojak Joined The Army</h3>
+                    <p>
+                        The northern kingdom welcomes a new warrior into the Order of KNIGHT.
+                    </p>
+                </div>
+                <div class="tavern-note ">
+                    <small>MARKET SIGNAL</small>
+                    <h3>Green Candles Spotted</h3>
+                    <p>
+                        Traders report unusual activity near the Green Candle Forest.
+                    </p>
+                </div>
+
+                <div class="tavern-note">
+                    <small>ROYAL TREASURY</small>
+                    <h3>The Treasury Grows</h3>
+                    <p>
+                        Kingdom reserves increased after the latest Knight.
+                    </p>
+                </div>
+
+                <div class="tavern-note ">
+                    <small>BATTLE ALERT</small>
+                    <h3>The Battle Begins At Dawn</h3>
+                    <p>
+                        Knights prepare their shields before entering Meme Valley.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="card classes-section" id="classes">
+            <h2 class="section-head">Kingdom Classes</h2>
+
+            <div class="classes-cards">
+
+                <div class="class-card king">
+                    <img src="./src/images/the_king.png" alt="">
+                    <div class="class-info">
+                        <h3>Pepe The King</h3>
+                        <p>Ruler of the Meme Kingdom.</p>
+                    </div>
+                </div>
+
+                <div class="class-card mage">
+                    <img src="./src/images/the_guardian.png" alt="">
+                    <div class="class-info">
+                        <h3>Meme Mage</h3>
+                        <p>Master of sacred candles.</p>
+                    </div>
+                </div>
+
+                <div class="class-card knight">
+                    <img src="./src/images/the_knight.png" alt="">
+                    <div class="class-info">
+                        <h3>Battle Knight</h3>
+                        <p>Protector of the royal order.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="medieval-footer">
+            <div>
+                <strong>THE ORDER OF KNIGHT</strong>
+                <p>EST. MMXXVI</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://x.com/knight_memecoin">X</a>
+                <a href="https://t.me/knight_memecoin">Telegram</a>
+                <a href="#">DEX</a>
+            </div>
+        </footer>
+    </div>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./src/js/script.js"></script>
+
+
+</body>
+</html>
